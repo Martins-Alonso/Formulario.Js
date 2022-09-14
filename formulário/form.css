@@ -1,0 +1,24 @@
+*{
+    margin: 5px;
+    padding: 2px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    background-size: 500%, 100%;
+
+}
+body{
+    background-image: linear-gradient(to left, rgb(20, 20, 203), rgb(54, 225, 54), rgb(158, 158, 31) );
+    animation: degrade-animado 5s infinite alternate;
+}
+@keyframes degrade-animado{
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
